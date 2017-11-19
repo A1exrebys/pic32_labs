@@ -22,7 +22,7 @@
 	tar -xvzf xc32-1.21.tgz
 
 8. Установите avrdude пакет:
-	sudo spkg -i install avrdude_5_11_1-1_amd64.deb
+	sudo dpkg -i avrdude_5_11_1-1_amd64.deb
 
 9. Перед компиляцией программы добавьте путь к
 исполняемому файлу в переменную окружения PATH:
